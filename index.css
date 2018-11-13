@@ -1,0 +1,77 @@
+/*
+  Name: Michael David Bradley
+  Date: November 1 2018
+  Section: CSE 154 AC
+
+  This is the index.css file for this website. This handles the styling to ensure that it matches
+  a single theme for the site.
+*/
+
+body {
+  background-color: black;
+  background-image: url("img/bg.png");
+  /* image taken from videoblocks.com @ https://tinyurl.com/ya5keotl */
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  width: 70%;
+  margin: auto;
+  font-size: 14pt;
+}
+
+header {
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50pt
+}
+
+h2 {
+  margin: unset;
+  font-size: 16pt;
+}
+
+main {
+  background-color: #ffffffe6;
+  border-radius: 8px;
+  margin: 20px;
+}
+
+#name {
+  font-weight: bold;
+  font-size: 16pt;
+}
+
+#info, #specs {
+  border-bottom: 2px solid grey;
+  padding: 10px;
+  margin: 20px;
+}
+
+#controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+select {
+  width: 25%;
+  height: 35px;
+  background-color: #FFD700;
+  border: 2px solid black;
+  color: black;
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 5px;
+}
+
+select:disabled {
+  background-color: #ff1111;
+}
+
+.hidden {
+  display: none;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+  Name: Michael David Bradley
+  Date: November 1 2018
+  Section: CSE 154 AC
+
+  This is the index.html for this Star Wars-related starship database site. It allows the user, via
+  the usage of API https://swapi.co/, to display information about a certain Star Wars starship.
+  
+  This file sets up the basic structure for the website.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Starship Codex</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Imperial Starship Codex</h1>
+    </header>
+    <main>
+      <section id="starship-display" class="hidden">
+        <section id="info">
+            <div id="name"></div>
+            <div id="model"></div>
+            <div id="maker"></div>
+        </section>
+        <section id="specs">
+            <h2>Specs</h2>
+            <div id="cost"></div>
+            <div id="crew"></div>
+            <div id="passengers"></div>
+            <div id="length"></div>
+            <div id="mglt"></div>
+            <div id="cargo-cap"></div>
+        </section>
+      </section>
+      <section id="error"></section>
+      <section id="controls">
+        <select id="select-input" disabled="disabled">
+          <option value="0">Select Starship</option>
+        </select>
+      </section>
+    </main>
+  </body>
+</html>
